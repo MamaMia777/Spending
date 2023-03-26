@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  background-color: hsl(27, 66%, 92%);
+}
+
+
+
+/* d3 bar chart variables */
+.domain {
+  stroke: none
+}
+
+.tick text {
+  font-size: 11px;
+  color: hsl(186, 34%, 60%)
+}
